@@ -1,13 +1,13 @@
-Movie Recommendation System
-Overview
+#Movie Recommendation System
+##Overview
 This project implements a movie recommendation system using content-based filtering. The system recommends movies similar to a given movie based on textual metadata such as movie overview, genres, keywords, cast, and crew. It leverages natural language processing techniques to process and vectorize the text data and calculates similarity scores between movies using cosine similarity.
 
-Dataset
+##Dataset
 The dataset used in this project consists of two CSV files:
 
 tmdb_5000_movies.csv: Contains metadata for over 5000 movies, including movie ID, title, overview, genres, keywords, etc.
 tmdb_5000_credits.csv: Contains credits information for the movies, including cast and crew details.
-Dependencies
+##Dependencies
 This project is implemented in Python and requires the following dependencies:
 
 numpy: For numerical computations
@@ -18,7 +18,7 @@ You can install the dependencies using pip:
 
 Copy code
 pip install numpy pandas scikit-learn nltk
-Usage
+##Usage
 Clone the repository to your local machine:
 bash
 Copy code
@@ -32,16 +32,14 @@ Run the Python script recommendation_system.py to generate movie recommendations
 Copy code
 python recommendation_system.py
 Follow the prompts to input a movie title and receive recommendations based on content similarity.
-References
+##References
 SciKit-Learn Documentation
 NLTK Documentation
 TMDb API
-Acknowledgments
+##Acknowledgments
 The dataset used in this project is sourced from The Movie Database (TMDb).
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Feel free to customize this template with additional details, instructions, or acknowledgments as needed. Let me know if you need further assistance!
+
 
 
 
